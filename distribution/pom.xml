@@ -116,6 +116,11 @@ LICENSE file.
     </dependency>
     <dependency>
       <groupId>site.ycsb</groupId>
+      <artifactId>kafka-elasticsearch7-binding</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>site.ycsb</groupId>
       <artifactId>foundationdb-binding</artifactId>
       <version>${project.version}</version>
     </dependency>

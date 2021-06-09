@@ -71,6 +71,7 @@ DATABASES = {
     "elasticsearch5": "site.ycsb.db.elasticsearch5.ElasticsearchClient",
     "elasticsearch5-rest": "site.ycsb.db.elasticsearch5.ElasticsearchRestClient",
     "elasticsearch7": "site.ycsb.db.elasticsearch7.ElasticsearchRestHighLevelClient",
+    "kafka-elasticsearch7": "site.ycsb.db.kafka.elasticsearch7.KafkaElasticsearchHighLevelRestClient",
     "foundationdb" : "site.ycsb.db.foundationdb.FoundationDBClient",
     "geode"        : "site.ycsb.db.GeodeClient",
     "googlebigtable"  : "site.ycsb.db.GoogleBigtableClient",
